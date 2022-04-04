@@ -30,5 +30,5 @@ class Program
         Console.WriteLine("The perimeter is: " + perimeter + "mm.");
 
         Console.WriteLine("\nDone.");
-  }
+    }
 }
