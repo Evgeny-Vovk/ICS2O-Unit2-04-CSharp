@@ -22,7 +22,7 @@ class Program
 
       //process
         int area = (length * width);
-        int perimeter = (2 * (length + width));
+        int perimeter = 2 * (length + width);
 
       //output
         Console.WriteLine("");
