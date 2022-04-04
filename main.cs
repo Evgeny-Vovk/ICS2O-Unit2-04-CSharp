@@ -8,7 +8,7 @@ class Program
 {
     public static void Main(string[] args)
     {
-      //input
+        //input
         int length;
         int width;
 
@@ -20,11 +20,11 @@ class Program
         Console.Write("Enter the width(mm): ");
         width = Convert.ToInt32(Console.ReadLine());
 
-      //process
+        //process
         int area = (length * width);
         int perimeter = 2 * (length + width);
 
-      //output
+        //output
         Console.WriteLine("");
         Console.WriteLine("The area is: " + area + "mm².");
         Console.WriteLine("The perimeter is: " + perimeter + "mm.");
